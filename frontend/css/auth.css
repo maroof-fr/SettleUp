@@ -1,0 +1,4 @@
+body.auth{min-height:100vh;display:grid;place-items:center;padding:20px;background:radial-gradient(circle at 15% 10%,var(--green-bg),transparent 45%),var(--bg)}
+.auth .card{width:min(420px,100%);padding:32px}.auth h1{margin:14px 0 4px}.auth form{margin:18px 0 8px}
+.pw{position:relative}.pw input{padding-right:70px}.pw button{position:absolute;right:6px;top:50%;transform:translateY(-50%)}
+.alert{padding:10px 12px;border-radius:10px;background:var(--red-bg);color:var(--red);margin-top:14px;font-size:14px}.alert[hidden]{display:none}.note{text-align:center;margin-bottom:0}

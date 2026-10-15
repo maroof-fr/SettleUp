@@ -1,0 +1,29 @@
+﻿# Java / Maven
+target/
+*.class
+*.log
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+application-local.properties
+secrets/
+
+# Private keys and certificates
+*.pem
+*.key
+*.jks
+*.p12
+
+# Operating system files
+.DS_Store
+Thumbs.db

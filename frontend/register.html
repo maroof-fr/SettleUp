@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Create account - SettleUp</title><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/auth.css"></head>
+<body class="auth"><main class="card">
+<a class="logo dark" href="index.html"><span class="mark">₹</span>SettleUp</a>
+<h1>Start tracking</h1><p class="sub">Keep every loan between friends in one place.</p>
+<div id="alert" class="alert" role="alert" hidden></div>
+<form id="register-form" novalidate>
+<div class="field"><label for="name">Full name</label><input id="name" name="name" autocomplete="name" required></div><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="password">Password</label><div class="pw"><input id="password" name="password" type="password" autocomplete="new-password" required><button type="button" class="btn ghost sm" data-toggle aria-label="Show password">Show</button></div></div><div class="field"><label for="confirm">Confirm password</label><input id="confirm" name="confirm" type="password" autocomplete="new-password" required></div>
+<button class="btn green full" type="submit">Create account</button></form>
+<p class="sub center">Already registered? <a href="login.html">Log in</a></p><p class="sub note" id="devnote"></p>
+</main>
+<script src="js/config.js"></script><script src="js/mock.js"></script><script src="js/auth.js"></script><script src="js/api.js"></script>
+</body></html>
